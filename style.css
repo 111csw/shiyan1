@@ -1,0 +1,52 @@
+html, body {
+  margin: 0;
+}
+
+html {
+  font-family: sans-serif;
+  height: 100%;
+}
+
+body {
+  overflow: hidden;
+  height: inherit;
+}
+
+canvas {
+  background-image: url('images/bag.jpg');  /* 引入背景图片 */
+  background-size: cover;  /* 让背景图片覆盖整个画布 */
+  background-position: center;  /* 背景图片居中显示 */
+}
+
+
+
+h1 {
+  font-size: 2rem;
+  letter-spacing: -1px;
+  position: absolute;
+  margin: 0;
+  top: -4px;
+  right: 5px;
+  color: transparent;
+  text-shadow: 0 0 4px white;
+}
+
+.controls {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+button {
+  margin: 5px;
+  padding: 10px;
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  font-size: 50px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
